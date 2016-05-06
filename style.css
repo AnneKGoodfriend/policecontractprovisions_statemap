@@ -1,0 +1,120 @@
+.background {
+  fill: none;
+  pointer-events: all;  
+}
+
+#states {
+  fill: #aaa;
+}
+
+#states .active {
+  fill: orange;
+}
+
+#state-borders {
+  fill: none;
+  stroke: #000;
+  stroke-width: 1.5px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  pointer-events: none;
+}
+
+path:hover {
+  fill-opacity: .7;
+}
+
+/* Style for Custom Tooltip */
+div.tooltip {   
+  position: absolute;           
+  text-align: center;           
+  width: 60px;                  
+  height: 28px;                 
+  padding: 2px;             
+  font: 12px sans-serif;        
+  /*background: white;*/  
+  border: 10px;      
+  border-radius: 8px;           
+  pointer-events: none;         
+}
+
+/* Legend Font Style */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Legend Position Style */
+.legend {
+  position:absolute;
+  left:30px;
+  top:480px;
+}
+
+.state_data{
+  border-right: #000;
+  border-left: #000;
+  border-bottom: #000;
+  border-top:  #000;
+/*  border: 10px;  */ 
+  left:850px;
+   top:100px;
+  position:absolute; 
+
+  background-color: white ;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  border-width: 2px;
+  min-height:510px;
+  width:400px;
+  padding: 20px;
+
+}
+
+.state_info{
+  position:relative;
+  /*top:5px;*/
+}
+
+.violations_info{
+  position:relative;
+  top:10px;
+}
+
+.language_info{
+  position:absolute;
+  top:260px;
+  background-color: rgb(60,60,60);
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+  color: white;
+  padding: 12px ;
+  height:240px;
+  width:368px;
+ 
+}
+
+.map_window{
+  position:absolute;
+  left:10px;
+  top:200px;
+}
